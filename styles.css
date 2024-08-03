@@ -6,7 +6,12 @@ body {
 }
 
 header {
-    background: #333;
+    background: body {
+    background-image: url('https://IMG-20240801-WA0108.jpg');
+    background-size: cover; /* يجعل الصورة تغطي كامل الخلفية */
+    background-position: center; /* يركز الصورة في منتصف الخلفية */
+    background-repeat: no-repeat; /* يمنع تكرار الصورة */
+    }
     color: #fff;
     padding: 1rem;
     text-align: center;
